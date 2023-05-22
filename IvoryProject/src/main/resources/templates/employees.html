@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Index</title>
+</head>
+<body>
+<h1>Employee Index</h1>
+<p>Please select an option:</p>
+<ul>
+    <li><a th:href="@{/employees/Activity}">Employees by Activity</a></li>
+    <li><a th:href="@{/employees/ByCode}">Employees by Code</a></li>
+    <li><a th:href="@{/employees/ByName}">Employees by Name</a></li>
+    <li><a th:href="@{/employees/All}">All Employees</a></li>
+    <li><a th:href="@{/employees/Salary?code=0}">List of Salaries for an employee</a></li>
+    <li><a th:href="@{/employees/CodeRange?codeStart=0&codeEnd=0}">List of employees based on the id Range given</a></li>
+    <li><a th:href="@{/employees/Total?code=0}">Total Amount of money for an employee</a></li>
+
+</ul>
+</body>
+</html>

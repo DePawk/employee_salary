@@ -1,0 +1,21 @@
+CODE,NAME,IS_ACTIVE,ADDRESS_STREET,ADDRESS_NUMBER,ADRESS_CITY,ADDRESS_COUNTRY
+12341,asda,1,fnkalsdf,235123,aslk,900
+123415,fasdf,1,gsag,1523,aslk,900
+512351,asdfasd,1,sdgasdg,15,aslk,900
+1242,asdfasdf,1,fnkalsdf,12121,aslk,900
+124123,fasdfa,1,fnkalsdf,13113,aslk,900
+151235,fasdfas,1,fnkalsdf,14142,aslk,900
+2315235,sadfasdf,1,sdgasdg,16161,aslk,900
+12312342,acvxzas,1,fnkalsdf,23141,aslk,900
+5125,asda,1,fnkalsdf,2134123,aslk,900
+123512,asdfasdf,0,fnkalsdf,1523,aslk,900
+561263,zvczvcx,0,fnkalsdf,1616,aslk,900
+2161236,asdfasdf,1,fnkalsdf,161761,aslk,900
+2162361,gasdgas,1,fnkalsdf,16151,aslk,900
+612361,sadgasdg,0,fnkalsdf,167171, aslk,900
+23612361,ewqtgs,0,fnkalsdf,17716,aslk,900
+6123621,gasdgas,0,fnkalsdf,15154,aslk,900
+23612341,sdgaewgas,1,fnkalsdf,2131,aslk,900
+6236123,sadgasdg,1,fnkalsdf,15612,aslk,900
+2312341,sadagsd,1,fnkalsdf,3142,aslk,900
+2341235,sadgasdgs,1,fnkalsdf,555,aslk,900

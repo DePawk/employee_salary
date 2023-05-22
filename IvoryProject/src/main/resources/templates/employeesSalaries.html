@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Salary List for a Employee</title>
+    <script>
+        function getEmployeeBySalary() {
+            var code = document.getElementById("code").value;
+            window.location.href = "/employees/Salary?code=" + code;
+        }
+    </script>
+</head>
+<body>
+<h1>Salary List for a Employee</h1>
+<form>
+    <label for="code">Employee Code:</label>
+    <input type="number" id="code" name="code" required>
+    <button type="button" onclick="getEmployeeBySalary()">Search</button>
+</form>
+<pre th:text="${json}"></pre>
+</body>
+</html>

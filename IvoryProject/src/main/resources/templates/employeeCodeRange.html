@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Code Range</title>
+  <script type="text/javascript">
+    function getEmployeeByCodeRange() {
+      var codeStart = document.getElementById("codeStart").value;
+      var codeEnd = document.getElementById("codeEnd").value;
+      window.location.href = "/employees/CodeRange?codeStart="+ codeStart + "&codeEnd=" + codeEnd;
+    }
+  </script>
+</head>
+<body>
+<h1>Employee Code Range</h1>
+<form>
+  <label for="codeStart">Start Code:</label>
+  <input type="number" id="codeStart" name="codeStart" required><br><br>
+  <label for="codeEnd">End Code:</label>
+  <input type="number" id="codeEnd" name="codeEnd" required><br><br>
+  <button type="button" onclick="getEmployeeByCodeRange()">Submit</button>
+</form>
+<pre th:text="${json}"></pre>
+</body>
+</html>
+

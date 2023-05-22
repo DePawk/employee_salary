@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Total money</title>
+  <script>
+    function getEmployeeBySalary() {
+      var code = document.getElementById("code").value;
+      window.location.href = "/employees/Total?code=" + code;
+    }
+  </script>
+</head>
+<body>
+<h1>Total amount of money from salaries</h1>
+<form>
+  <label for="code">Employee Code:</label>
+  <input type="number" id="code" name="code" required>
+  <button type="button" onclick="getEmployeeBySalary()">Search</button>
+</form>
+<h2 th:if="${salaries != null}">Total: $<span th:text="${#numbers.formatDecimal(salaries, 0, 'COMMA', 2, 'POINT')}"></span></h2>
+</body>
+</html>
